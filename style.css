@@ -78,7 +78,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -87,7 +87,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -142,7 +142,7 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 26px;
+    padding: 26px 0;
 }
 
 .footer-link {
